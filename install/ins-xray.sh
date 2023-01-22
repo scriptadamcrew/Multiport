@@ -131,17 +131,17 @@ cat> /usr/local/etc/xray/config.json << END
                         "xver": 1
                     },
                     {
-                        "path": "/hacker-vlesswstls", # // VMESS WS TLS
+                        "path": "/trickers-vlesswstls", # // VMESS WS TLS
                         "dest": 1212,
                         "xver": 1
                     },
                     {
-                        "path": "/hacker-vmesswstls", # // VLESS WS TLS
+                        "path": "/trickers-vmesswstls", # // VLESS WS TLS
                         "dest": 1213,
                         "xver": 1
                     },
                     {
-                        "path": "/hacker-trojanwstls", # // TROJAN WS TLS
+                        "path": "/trickers-trojanwstls", # // TROJAN WS TLS
                         "dest": 1214,
                         "xver": 1
                     }
@@ -387,7 +387,7 @@ cat> /usr/local/etc/xray/vless.json << END
                 "security": "none",
                 "wsSettings": {
                     "acceptProxyProtocol": true,
-                    "path": "/hacker-vlesswstls"
+                    "path": "/trickers-vlesswstls"
                 }
             }
         }
@@ -497,7 +497,7 @@ cat> /usr/local/etc/xray/vlessnone.json << END
          "network": "ws",
             "wsSettings": {
               "acceptProxyProtocol": true,
-                "path": "/hacker-vlesswsntls"
+                "path": "/trickers-vlesswsntls"
 
                 }
             }
@@ -611,7 +611,7 @@ cat> /usr/local/etc/xray/vmess.json << END
                 "security": "none",
                 "wsSettings": {
                     "acceptProxyProtocol": true,
-                    "path": "/hacker-vmesswstls"
+                    "path": "/trickers-vmesswstls"
                 }
             }
         }
@@ -721,7 +721,7 @@ cat> /usr/local/etc/xray/vmessnone.json << END
          "network": "ws",
             "wsSettings": {
               "acceptProxyProtocol": true,
-                "path": "/hacker-vmesswsntls"
+                "path": "/trickers-vmesswsntls"
                 }
             }
         }
@@ -833,7 +833,7 @@ cat> /usr/local/etc/xray/trojan.json << END
            "network": "ws",
            "wsSettings": {
              "acceptProxyProtocol": true,
-               "path": "/hacker-trojanwstls"
+               "path": "/trickers-trojanwstls"
              }
           }
        }
@@ -944,7 +944,7 @@ cat> /usr/local/etc/xray/trojannone.json << END
            "network": "ws",
            "wsSettings": {
              "acceptProxyProtocol": true,
-               "path": "/hacker-trojanwsntls"
+               "path": "/trickers-trojanwsntls"
              }
           }
        }
@@ -1054,17 +1054,17 @@ cat> /usr/local/etc/xray/none.json << END
             "xver": 1
           },
           {
-            "path": "/hacker-vlesswsntls", # // VLESS NONE
+            "path": "/trickers-vlesswsntls", # // VLESS NONE
             "dest": 1301,
             "xver": 1
           },
           {
-            "path": "/hacker-vmesswsntls", # // VMESS NONE
+            "path": "/trickers-vmesswsntls", # // VMESS NONE
             "dest": 1302,
             "xver": 1
           },
           {
-             "path": "/hacker-trojanwsntls", # // TROJAN NONE
+             "path": "/trickers-trojanwsntls", # // TROJAN NONE
             "dest": 1303,
             "xver": 1
           }
